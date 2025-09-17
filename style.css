@@ -1,0 +1,143 @@
+.active {
+  color: white;
+  border: 1px #4f90f1 solid;
+  border-radius: 10px;
+  background-color: #5691e8;
+  text-decoration: underline;
+}
+
+/* act-btn section from the htlm section */
+.act-btn {
+  position: relative;
+  top: 54px;
+}
+
+/* Hero image styling */
+.hero-img {
+  width: 100%;
+  max-width: 400px;
+}
+.about-img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.contact-img {
+  width: 100%;
+}
+/* Footer Section */
+#footer-container {
+  padding: 10px 0px 80px 0px;
+}
+/* Mobile Card */
+.mobile-card {
+  position: fixed;
+  top: 504px;
+  left: 54%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  visibility: hidden;
+  gap: 10px;
+  width: 90%;
+  max-width: 360px;
+}
+.min-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: -90px;
+}
+
+@media (max-width: 768px) {
+  .mobile-card {
+    display: flex;
+    visibility: visible;
+  }
+  /* Navbar fixed at the top position of the screen */
+  #top-fixed {
+    position: fixed;
+    top: 0px;
+  }
+
+  /* contact-right */
+  .contact-right {
+    margin-bottom: 20px;
+  }
+
+  .about-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  #about {
+    text-align: center;
+  }
+  .hero-img {
+    width: 100%;
+    max-width: 300px;
+    /* border-radius: 10px; */
+  }
+
+  .act-btn {
+    position: relative;
+    top: 6px;
+  }
+  #card {
+    text-align: center;
+    width: 100%;
+  }
+  #home {
+    text-align: center;
+    background-color: rgb(214, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #action-btn {
+    margin-left: 20px;
+    width: 100%;
+  }
+}
+
+.main {
+  color: white;
+}
+
+#bagde {
+  border: 1px solid white;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: white;
+}
+#home {
+  margin-top: 40px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+}
+.about-content {
+  padding: 10px 0px 20px 0px;
+  height: 100%;
+}
+
+/* style apply to social link */
+.social-link {
+  text-decoration: none;
+}
+.social-link:hover {
+  text-decoration: underline;
+}
