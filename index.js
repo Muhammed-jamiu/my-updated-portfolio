@@ -17,3 +17,20 @@ navItems.forEach((item) => {
     item.classList.add("active");
   });
 });
+
+// Call to Action btn section
+ctaBtn = document.querySelectorAll("#cta-btn");
+modalBtn = document.querySelector(".modal-btn");
+modalContainer = document.querySelector(".modal-container");
+
+ctaBtn.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    modalContainer.classList.add("show-modal");
+  });
+});
+
+// closing modal Container
+modalBtn.addEventListener("click", () => {
+  // alert("yes");
+  modalContainer.style.display = "none";
+});
