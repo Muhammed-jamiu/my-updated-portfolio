@@ -71,7 +71,26 @@
   padding: 10px;
   border-radius: 10px;
   box-shadow: 5px 8px 5px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
+
+/* Extral small screen */
+@media (max-width: 375px) {
+  .mobile-card {
+    position: fixed;
+
+    width: 500px;
+    left: 194px;
+  }
+}
+/* @small screen */
+@media (max-width: 640px) {
+  .mobile-card {
+    position: fixed;
+    margin-top: 90px;
+  }
+}
+/* @ medium (md)screen size */
 @media (max-width: 768px) {
   .mobile-card {
     display: flex;
