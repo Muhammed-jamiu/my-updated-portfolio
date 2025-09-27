@@ -78,7 +78,7 @@
 @media (max-width: 375px) {
   .mobile-card {
     position: fixed;
-
+    top: 400px;
     width: 500px;
     left: 194px;
   }
