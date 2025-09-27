@@ -87,7 +87,7 @@
 @media (max-width: 640px) {
   .mobile-card {
     position: fixed;
-    margin-top: 90px;
+    /* margin-top: 10px; */
   }
 }
 /* @ medium (md)screen size */
