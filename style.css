@@ -6,12 +6,6 @@
   text-decoration: underline;
 }
 
-/* act-btn section from the htlm section */
-/* .act-btn {
-  position: relative;
-  top: 54px;
-} */
-
 /* Hero image styling */
 .hero-img {
   width: 100%;
@@ -33,7 +27,6 @@
 /* modal Section */
 .modal-container {
   margin-top: 10px;
-  border: 2px soild red;
   height: 200px;
   width: 320px;
   margin-left: 28px;
