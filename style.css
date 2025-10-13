@@ -114,8 +114,8 @@
   align-items: center;
   visibility: hidden;
   gap: 10px;
-  width: 90%;
-  max-width: 360px;
+  width: 80%;
+  max-width: 330px;
 }
 .min-card-content {
   display: flex;
@@ -123,6 +123,21 @@
   gap: -100px;
 }
 
+/* img-testing */
+.img-test {
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+}
+.list-con {
+  display: flex;
+  gap: 30px;
+  /* border: 2px solid red; */
+  width: 300px;
+  /* justify-content: space-around; */
+  list-style: none;
+  color: white;
+}
 /* student portal Section */
 #school-portal {
   height: 230px;
