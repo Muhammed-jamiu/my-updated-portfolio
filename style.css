@@ -56,7 +56,6 @@
 }
 
 .close-card:hover {
-  /* background-color: rgb(247, 245, 245); */
   cursor: pointer;
 }
 .modal-con {
@@ -123,18 +122,10 @@
   gap: -100px;
 }
 
-/* img-testing */
-.img-test {
-  display: flex;
-  justify-content: center;
-  border: 2px solid green;
-}
 .list-con {
   display: flex;
   gap: 30px;
-  /* border: 2px solid red; */
   width: 300px;
-  /* justify-content: space-around; */
   list-style: none;
   color: white;
 }
@@ -157,34 +148,18 @@
   position: relative;
 }
 
-/* Extral small screen */
-/* @media (max-width: 320px) {
-  .mobile-card {
-    position: fixed;
-    top: 400px;
-    width: 300px;
-    left: 160px;
-    background-color: red;
-  }
-} */
 @media (max-width: 375px) {
-  /* modal con */
-  .modal-container {
-    /* visibility: hidden; */
-  }
   .mobile-card {
     position: fixed;
     top: 400px;
     width: 500px;
     left: 194px;
-    /* background-color: green; */
   }
 }
 /* @small screen */
 @media (max-width: 640px) {
   .mobile-card {
     position: fixed;
-    /* margin-top: 10px; */
   }
 }
 /* @ medium (md)screen size */
@@ -214,13 +189,8 @@
   .hero-img {
     width: 100%;
     max-width: 300px;
-    /* border-radius: 10px; */
   }
 
-  /* .act-btn {
-    position: relative;
-    top: 6px;
-  } */
   #card {
     text-align: center;
     width: 100%;
