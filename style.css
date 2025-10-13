@@ -123,6 +123,21 @@
   gap: -100px;
 }
 
+/* img-testing */
+.img-test {
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+}
+.list-con {
+  display: flex;
+  gap: 30px;
+  /* border: 2px solid red; */
+  width: 300px;
+  /* justify-content: space-around; */
+  list-style: none;
+  color: white;
+}
 /* student portal Section */
 #school-portal {
   height: 230px;
